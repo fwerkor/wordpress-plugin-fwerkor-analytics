@@ -3,7 +3,7 @@
  * Plugin Name: FWERKOR Analytics
  * Plugin URI: https://github.com/fwerkor/wordpress-plugin-fwerkor-analytics
  * Description: Lightweight, privacy-friendly first-party analytics for WordPress.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: FWERKOR
  * Author URI: https://github.com/fwerkor
  * License: GPL-2.0-or-later
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('FWERKOR_ANALYTICS_VERSION', '1.0.0');
+define('FWERKOR_ANALYTICS_VERSION', '1.0.1');
 define('FWERKOR_ANALYTICS_FILE', __FILE__);
 define('FWERKOR_ANALYTICS_DIR', plugin_dir_path(__FILE__));
 define('FWERKOR_ANALYTICS_URL', plugin_dir_url(__FILE__));

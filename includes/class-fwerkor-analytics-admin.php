@@ -179,7 +179,7 @@ final class FWERKOR_Analytics_Admin
                         <input type="checkbox" name="respect_dnt" value="1" <?php checked((bool) get_option('fwerkor_analytics_respect_dnt', 1)); ?>>
                     </label>
 
-                    <?php submit_button('Save settings', 'primary', 'submit', false); ?>
+                    <button type="submit" name="submit" class="button button-primary">Save settings</button>
                 </form>
             </section>
         </div>
